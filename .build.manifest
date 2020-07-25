@@ -1,5 +1,10 @@
 .dart_tool/package_config.json
 .packages
+agb.html
+assets/cancel.svg
+assets/impressum.css
+assets/menu.svg
+assets/search.svg
 assets/social/discord.png
 assets/social/dmanager.svg
 assets/social/github.svg
@@ -10,6 +15,7 @@ assets/social/reddit.png
 assets/social/twitter.png
 assets/social/yt.svg
 favicon.png
+impressum.html
 index.html
 logo.png
 main.dart.js
@@ -299,4 +305,5 @@ packages/test/src/runner/browser/static/favicon.ico
 packages/test/src/runner/browser/static/host.css
 packages/test/src/runner/browser/static/host.dart.js
 packages/test/src/runner/browser/static/index.html
+privacy.html
 styles.css

@@ -1,0 +1,65 @@
+html,
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+.card {
+  padding: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  background: #fff;
+  color: #000;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.05);
+  font-weight: 400;
+  border: 0 solid #ededf0;
+  min-height: 70vh;
+  width: 960px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20vh;
+}
+.heading {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2vh;
+}
+.heading h2 {
+  top: calc(64px - 3rem);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 2rem;
+}
+table {
+  color: white;
+}
+table th {
+  padding: 0.6rem 0;
+  text-align: left;
+  font-size: 1.1rem;
+}
+h1 {
+  text-align: center;
+}
+a {
+  color: rgb(140, 209, 18);
+}
+@media only screen and (max-width: 960px) {
+  .card {
+    width: 96%;
+  }
+  .heading {
+    width: 100%;
+  }
+  .heading h2 {
+    top: -30px;
+    left: calc(50% + 64px);
+  }
+}
