@@ -4,8 +4,11 @@
 CNAME
 agb.html
 assets/cancel.svg
+assets/cart.svg
+assets/delete.svg
 assets/impressum.css
 assets/menu.svg
+assets/paypal_logo.png
 assets/search.svg
 assets/social/discord.png
 assets/social/dmanager.svg
@@ -21,6 +24,7 @@ impressum.html
 index.html
 logo.png
 main.dart.js
+order-confirmed.svg
 packages/$sdk/_internal/strong.sum
 packages/$sdk/dev_compiler/kernel/amd/dart_sdk.js
 packages/$sdk/dev_compiler/kernel/amd/require.js
