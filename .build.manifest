@@ -8,13 +8,16 @@ assets/cart.svg
 assets/delete.svg
 assets/impressum.css
 assets/menu.svg
+assets/order-confirmed.png
+assets/order-confirmed.svg
 assets/paypal_logo.png
 assets/search.svg
 assets/social/discord.png
-assets/social/dmanager.svg
-assets/social/github.svg
+assets/social/ig.png
 assets/social/ig.svg
+assets/social/mail.png
 assets/social/mail.svg
+assets/social/mocsmarket.png
 assets/social/rebrickable.png
 assets/social/reddit.png
 assets/social/twitter.png
@@ -24,7 +27,6 @@ impressum.html
 index.html
 logo.png
 main.dart.js
-order-confirmed.svg
 packages/$sdk/_internal/strong.sum
 packages/$sdk/dev_compiler/kernel/amd/dart_sdk.js
 packages/$sdk/dev_compiler/kernel/amd/require.js
