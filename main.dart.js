@@ -12135,9 +12135,9 @@ while(true)switch(s){case 0:l=p.a
 l!=null
 l=t.X
 o=P.aM(["grant_type","client_credentials"],l,l)
-n=t.fn.h("bi.S").a(C.J.ao("AQa9ioCUuCzg3xdGMVpIRKmGx3Y1K03IaOHmqXHfe65lLhTXKkj828B02MWGOlRBH_xfkj6RjeARP943:EMqrB3YaI3O8b3EqERyolECxY56atFiBkkcoLSmq6wB6Uk7EdVxVahUI0OODPmwOo8uzCtI_pRBdI592"))
+n=t.fn.h("bi.S").a(C.J.ao("ASKygMlndDDWXnXcNtd_l062dL6V8FusTS8M3rXnXM3vYucqp4QrhKW-u4Ny7DD-XuTOMnoxRewNqUtw:EKlbPs5eC6PVdC_lxtnwPSs7NoIJENRU0_52A0rP68vRGSU-w252VBvLVnnZfvndoam-cnIEgxkQw0v3"))
 s=3
-return P.ag(G.o2("https://api-m.sandbox.paypal.com/v1/oauth2/token",o,P.aM(["Content-Type","application/x-www-form-urlencoded","Authorization","Basic "+C.a.iD(C.R.gbI().ao(n))],l,l)),$async$ck)
+return P.ag(G.o2("https://api-m.paypal.com/v1/oauth2/token",o,P.aM(["Content-Type","application/x-www-form-urlencoded","Authorization","Basic "+C.a.iD(C.R.gbI().ao(n))],l,l)),$async$ck)
 case 3:m=b
 q=m!=null&&m.b===200?p.a=H.p(J.H(C.m.as(0,B.iG(J.H(U.iA(m.e).c.a,"charset")).as(0,m.x)),"access_token")):p.a=null
 s=1
@@ -12153,7 +12153,7 @@ s=3
 return P.ag(p.ck(),$async$cL)
 case 3:n=P.aM(["Authorization",C.a.T("Bearer ",p.a),"Content-Type","application/json"],n,n)
 s=4
-return P.ag(G.o2("https://api-m.sandbox.paypal.com//v2/checkout/orders",C.m.b4(l),n),$async$cL)
+return P.ag(G.o2("https://api-m.paypal.com//v2/checkout/orders",C.m.b4(l),n),$async$cL)
 case 4:o=c
 if(o!=null&&o.b===201){l=C.m.as(0,B.iG(J.H(U.iA(o.e).c.a,"charset")).as(0,o.x))
 n=J.Z(l)
@@ -12172,7 +12172,7 @@ while(true)switch(s){case 0:s=3
 return P.ag(p.ck(),$async$cJ)
 case 3:o=t.X
 s=4
-return P.ag(G.o2("https://api-m.sandbox.paypal.com/"+("/v2/checkout/orders/"+a+"/capture"),null,P.aM(["Authorization",C.a.T("Bearer ",p.a),"Content-Type","application/json"],o,o)),$async$cJ)
+return P.ag(G.o2("https://api-m.paypal.com/"+("/v2/checkout/orders/"+a+"/capture"),null,P.aM(["Authorization",C.a.T("Bearer ",p.a),"Content-Type","application/json"],o,o)),$async$cJ)
 case 4:n=e
 if(n.b!==201){q=!1
 s=1
